@@ -1,5 +1,6 @@
 package assignments.assignment3;
 
+//Write a program to demonstrate all constructors and 15 methods of ArrayList.
 import java.util.*;
 
 public class Q1 {
