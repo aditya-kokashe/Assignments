@@ -1,0 +1,159 @@
+MANUAL TEST CASE REPORT
+Project: Travel Booking Platform
+
+TEST CASE SET 1: Login and Registration
+---------------------------------------------
+Test Case 1.1
+Test Case ID: TC_LOGIN_01
+Objective: Verify login with valid credentials
+Steps
+1 Open browser
+2 Go to Travel Booking Platform login page
+3 Enter valid username and password
+4 Click Login
+Expected Result :
+User should be redirected to Home Page
+Actual Result :
+User successfully logged in and reached Home Page
+Status :
+Pass
+
+Test Case 1.2
+Test Case ID: TC_LOGIN_02
+Objective: Verify login with invalid password
+Steps
+1 Open login page
+2 Enter valid username and invalid password
+3 Click Login
+Expected Result
+System should display error message: Invalid Credentials
+Actual Result
+Error message displayed correctly
+Status
+Pass
+
+Test Case 1.3
+Test Case ID: TC_REG_01
+Objective: Verify new user registration
+Steps
+1 Open registration page
+2 Enter valid user details
+3 Click Register
+Expected Result
+User account should be created successfully
+Actual Result
+User registered successfully
+Status
+Pass
+-----------------------------------------------------------------
+
+
+TEST CASE SET 2: Travel Search and Booking
+----------------------------------------------------------------
+Test Case 2.1
+Test Case ID: TC_SEARCH_01
+Objective: Verify flight search functionality
+Steps
+1 Login to system
+2 Enter source destination and travel date
+3 Click Search
+Expected Result
+List of available flights should be displayed
+Actual Result
+Available flights displayed correctly
+Status
+Pass
+
+Test Case 2.2
+Test Case ID: TC_BOOK_01
+Objective: Verify flight booking
+Steps
+1 Select a flight
+2 Enter passenger details
+3 Click Book Now
+Expected Result
+Booking should be confirmed and ticket generated
+Actual Result
+Booking confirmed successfully
+Status
+Pass
+
+Test Case 2.3
+Test Case ID: TC_BOOK_02
+Objective: Verify booking cancellation
+Steps
+1 Go to My Bookings
+2 Select booking
+3 Click Cancel
+Expected Result
+Booking should be cancelled successfully
+Actual Result
+Booking cancelled successfully
+Status
+Pass
+------------------------------------------------------------
+
+
+TEST CASE SET 3: Payment Processing
+------------------------------------------------------------
+Test Case 3.1
+Test Case ID: TC_PAY_01
+Objective: Verify successful payment transaction
+Steps
+1 Proceed to payment
+2 Enter valid card details
+3 Click Pay
+Expected Result
+Payment should be processed and booking confirmed
+Actual Result
+Payment successful and booking confirmed
+Status
+Pass
+
+Test Case 3.2
+Test Case ID: TC_PAY_02
+Objective: Verify handling of failed payment
+Steps
+1 Enter invalid payment details
+2 Click Pay
+Expected Result
+System should display error message: Payment Failed
+Actual Result
+Error message displayed correctly
+Status
+Pass
+--------------------------------------------------------
+
+
+
+TEST CASE SET 4: User Account and Logout
+--------------------------------------------------------
+Test Case 4.1
+Test Case ID: TC_ACC_01
+Objective: Verify booking history display
+Steps
+1 Login
+2 Open My Account
+3 Click Booking History
+Expected Result
+All previous bookings should be displayed
+Actual Result
+Booking history displayed correctly
+Status
+Pass
+Test Case 4.2
+Test Case ID: TC_LOGOUT_01
+Objective: Verify logout functionality
+Steps
+1 Click Logout
+Expected Result
+User should be redirected to Login page
+Actual Result
+User logged out successfully
+Status
+Pass
+-----------------------------------------------------------
+TEST SUMMARY
+All test cases executed successfully.
+System is stable and ready for deployment.
+-----------------------------------------------------------

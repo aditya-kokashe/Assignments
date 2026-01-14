@@ -1,0 +1,129 @@
+Write manual test case report on Customer Relationship Management.	
+
+TEST CASE SET 1: Login – Valid & Invalid Scenarios
+------------------------------------------------------------
+Test Case 1.1 — Successful Login
+Test Case ID: TC_LOGIN_01
+Objective: Verify login with valid credentials
+Steps:
+1. Open browser
+2. Go to CRM Login page
+3. Enter valid username and password
+4. Click on Login button
+Expected Result:
+User should be redirected to Dashboard
+Actual Result:
+User successfully reached Dashboard
+Status: Pass
+
+Test Case 1.2 — Invalid Login
+Test Case ID: TC_LOGIN_02
+Objective: Verify login with invalid password
+Steps:
+1. Open browser
+2. Go to CRM Login page
+3. Enter valid username and invalid password
+4. Click on Login
+Expected Result:
+System should display error message:
+“Invalid Credentials”
+Actual Result:
+Error message displayed correctly
+Status: Pass
+-----------------------------------------------------------
+
+
+
+TEST CASE SET 2: Customer Management
+-----------------------------------------------------------
+Test Case 2.1 — Add New Customer
+Test Case ID: TC_CUST_01
+Objective: Verify adding new customer
+Steps:
+1. Login to CRM
+2. Go to Customer Module
+3. Click Add Customer
+4. Enter valid customer details
+5. Click Save
+Expected Result:
+Customer record should be added successfully
+Actual Result:
+Customer added successfully
+Status: Pass
+
+Test Case 2.2 — Add Customer with Missing Name
+Test Case ID: TC_CUST_02
+Objective: Verify validation for empty customer name
+Steps:
+1. Login
+2. Open Add Customer page
+3. Leave Name field empty
+4. Click Save
+Expected Result:
+Validation message should appear:
+“Name cannot be empty”
+Actual Result:
+Validation message displayed correctly
+Status: Pass
+
+Test Case 2.3 — Search Customer
+Test Case ID: TC_CUST_03
+Objective: Verify customer search by ID
+Steps:
+Login
+Go to Search Customer
+Enter existing Customer ID
+Click Search
+Expected Result:
+Customer details should be displayed
+Actual Result:
+Customer record displayed successfully
+Status: Pass
+
+Test Case 2.4 — Delete Customer
+Test Case ID: TC_CUST_04
+Objective: Verify deletion of customer record
+Steps:
+Login
+Search customer by ID
+Click Delete
+Expected Result:
+Customer should be deleted
+Actual Result:
+Customer deleted successfully
+Status: Pass
+------------------------------------------------------------
+
+
+
+TEST CASE SET 3: Reports & Logout
+-------------------------------------------------------------
+Test Case 3.1 — Generate Report
+Test Case ID: TC_REP_01
+Objective: Verify report generation
+Steps:
+Login
+Go to Reports Module
+Click Generate Report
+Expected Result:
+System should generate customer report
+Actual Result:
+Report generated successfully
+Status: Pass
+
+Test Case 3.2 — Logout
+Test Case ID: TC_LOGOUT_01
+Objective: Verify logout functionality
+Steps:
+Click Logout
+Expected Result:
+User should return to Login page
+Actual Result:
+User logged out successfully
+Status: Pass
+----------------------------------------------------------------------------
+
+Testing Conclusion : 
+All manual test cases were executed successfully.
+The CRM system functions correctly and meets all functional requirements.
+----------------------------------------------------------------------------

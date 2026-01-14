@@ -1,0 +1,178 @@
+MANUAL TEST CASE REPORT
+Project: Automated Banking Website
+
+TEST CASE SET 1: User Authentication
+--------------------------------------------------------------
+Test Case 1.1
+Test Case ID: TC_LOGIN_01
+Objective: Verify login with valid credentials
+Steps
+1 Open browser
+2 Go to Banking website login page
+3 Enter valid user ID and password
+4 Click Login
+Expected Result
+User should be redirected to Account Dashboard
+Actual Result
+User successfully logged in and reached Dashboard
+Status
+Pass
+
+Test Case 1.2
+Test Case ID: TC_LOGIN_02
+Objective: Verify login with invalid password
+Steps
+1 Open login page
+2 Enter valid user ID and invalid password
+3 Click Login
+Expected Result
+System should display error message: Invalid Credentials
+Actual Result
+Error message displayed correctly
+Status
+Pass
+
+Test Case 1.3
+Test Case ID: TC_REG_01
+Objective: Verify new user registration
+Steps
+1 Open registration page
+2 Enter valid customer details
+3 Click Register
+Expected Result
+Customer account should be created successfully
+Actual Result
+Customer registered successfully
+Status
+Pass
+--------------------------------------------------------------
+
+
+TEST CASE SET 2: Account Management
+--------------------------------------------------------------
+Test Case 2.1
+Test Case ID: TC_ACC_01
+Objective: Verify view account balance
+Steps
+1 Login
+2 Click Account Summary
+Expected Result
+Account balance should be displayed
+Actual Result
+Account balance displayed correctly
+Status
+Pass
+
+Test Case 2.2
+Test Case ID: TC_ACC_02
+Objective: Verify update profile information
+Steps
+1 Login
+2 Go to Profile Settings
+3 Update contact details
+4 Click Save
+Expected Result
+Profile details should be updated successfully
+Actual Result
+Profile updated successfully
+Status
+Pass
+--------------------------------------------------------------
+
+
+TEST CASE SET 3: Transactions
+--------------------------------------------------------------
+Test Case 3.1
+Test Case ID: TC_TXN_01
+Objective: Verify money transfer
+Steps
+1 Login
+2 Click Fund Transfer
+3 Enter beneficiary details and amount
+4 Click Transfer
+Expected Result
+Transaction should be completed successfully
+Actual Result
+Transaction completed successfully
+Status
+Pass
+
+Test Case 3.2
+Test Case ID: TC_TXN_02
+Objective: Verify insufficient balance handling
+Steps
+1 Enter transfer amount greater than balance
+2 Click Transfer
+Expected Result
+System should display error message: Insufficient Balance
+Actual Result
+Error message displayed correctly
+Status
+Pass
+--------------------------------------------------------------
+
+
+TEST CASE SET 4: Bill Payments and Services
+--------------------------------------------------------------
+Test Case 4.1
+Test Case ID: TC_BILL_01
+Objective: Verify bill payment functionality
+Steps
+1 Login
+2 Go to Bill Payment
+3 Select bill type and enter details
+4 Click Pay
+Expected Result
+Bill should be paid successfully
+Actual Result
+Bill payment completed successfully
+Status
+Pass
+
+Test Case 4.2
+Test Case ID: TC_BILL_02
+Objective: Verify failed bill payment
+Steps
+1 Enter invalid payment details
+2 Click Pay
+Expected Result
+System should display error message: Payment Failed
+Actual Result
+Error message displayed correctly
+Status
+Pass
+--------------------------------------------------------------
+
+
+TEST CASE SET 5: Logout and Security
+--------------------------------------------------------------
+Test Case 5.1
+Test Case ID: TC_LOGOUT_01
+Objective: Verify logout functionality
+Steps
+1 Click Logout
+Expected Result
+User should be redirected to Login page
+Actual Result
+User logged out successfully
+Status
+Pass
+
+Test Case 5.2
+Test Case ID: TC_SEC_01
+Objective: Verify session timeout
+Steps
+1 Login
+2 Stay inactive for configured time
+Expected Result
+User should be automatically logged out
+Actual Result
+User session expired successfully
+Status
+Pass
+--------------------------------------------------------------
+
+TEST SUMMARY
+All manual test cases executed successfully.
+Automated Banking Website is secure, stable and ready for deployment.
+--------------------------------------------------------------

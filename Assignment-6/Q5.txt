@@ -1,0 +1,179 @@
+MANUAL TEST CASE REPORT
+Project: Healthcare System
+
+TEST CASE SET 1: User Authentication
+----------------------------------------------------------
+Test Case 1.1
+Test Case ID: TC_LOGIN_01
+Objective: Verify login with valid credentials
+Steps
+1 Open browser
+2 Go to Healthcare System login page
+3 Enter valid username and password
+4 Click Login
+Expected Result
+User should be redirected to User Dashboard
+Actual Result
+User successfully logged in and reached Dashboard
+Status
+Pass
+
+Test Case 1.2
+Test Case ID: TC_LOGIN_02
+Objective: Verify login with invalid password
+Steps
+1 Open login page
+2 Enter valid username and invalid password
+3 Click Login
+Expected Result
+System should display error message: Invalid Credentials
+Actual Result
+Error message displayed correctly
+Status
+Pass
+
+Test Case 1.3
+Test Case ID: TC_REG_01
+Objective: Verify new patient registration
+Steps
+1 Open registration page
+2 Enter valid patient details
+3 Click Register
+Expected Result
+Patient account should be created successfully
+Actual Result
+Patient registered successfully
+Status
+Pass
+----------------------------------------------------------
+
+
+TEST CASE SET 2: Appointment Management
+----------------------------------------------------------
+Test Case 2.1
+Test Case ID: TC_APPT_01
+Objective: Verify appointment booking
+Steps
+1 Login
+2 Search doctor
+3 Select date and time
+4 Click Book Appointment
+Expected Result
+Appointment should be confirmed
+Actual Result
+Appointment booked successfully
+Status
+Pass
+
+Test Case 2.2
+Test Case ID: TC_APPT_02
+Objective: Verify appointment cancellation
+Steps
+1 Login
+2 Open My Appointments
+3 Select appointment
+4 Click Cancel
+Expected Result
+Appointment should be cancelled successfully
+Actual Result
+Appointment cancelled successfully
+Status
+Pass
+----------------------------------------------------------
+
+
+TEST CASE SET 3: Medical Records
+----------------------------------------------------------
+Test Case 3.1
+Test Case ID: TC_MED_01
+Objective: Verify viewing medical records
+Steps
+1 Login
+2 Go to Medical Records
+Expected Result
+Patient medical history should be displayed
+Actual Result
+Medical records displayed correctly
+Status
+Pass
+
+Test Case 3.2
+Test Case ID: TC_MED_02
+Objective: Verify updating medical records
+Steps
+1 Login as doctor
+2 Open patient record
+3 Update diagnosis
+4 Click Save
+Expected Result
+Medical record should be updated
+Actual Result
+Medical record updated successfully
+Status
+Pass
+----------------------------------------------------------
+
+
+TEST CASE SET 4: Billing and Payments
+----------------------------------------------------------
+Test Case 4.1
+Test Case ID: TC_BILL_01
+Objective: Verify bill generation
+Steps
+1 Login
+2 Go to Billing Section
+3 Generate bill
+Expected Result
+Bill should be generated successfully
+Actual Result
+Bill generated successfully
+Status
+Pass
+
+Test Case 4.2
+Test Case ID: TC_PAY_01
+Objective: Verify bill payment
+Steps
+1 Enter valid payment details
+2 Click Pay
+Expected Result
+Payment should be successful
+Actual Result
+Payment completed successfully
+Status
+Pass
+----------------------------------------------------------
+
+
+TEST CASE SET 5: Logout and Security
+----------------------------------------------------------
+Test Case 5.1
+Test Case ID: TC_LOGOUT_01
+Objective: Verify logout functionality
+Steps
+1 Click Logout
+Expected Result
+User should be redirected to Login page
+Actual Result
+User logged out successfully
+Status
+Pass
+
+Test Case 5.2
+Test Case ID: TC_SEC_01
+Objective: Verify session timeout
+Steps
+1 Login
+2 Remain inactive
+Expected Result
+System should log out automatically
+Actual Result
+User logged out automatically
+Status
+Pass
+----------------------------------------------------------
+
+TEST SUMMARY
+All manual test cases executed successfully.
+Healthcare System is stable, secure and ready for deployment.
+----------------------------------------------------------
